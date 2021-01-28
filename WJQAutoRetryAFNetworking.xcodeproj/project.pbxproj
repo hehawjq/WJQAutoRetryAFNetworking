@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338FEB2032ED2A923F00B875 /* Pods_WJQAutoRetryAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635AAFB3A4B357141B5953A0 /* Pods_WJQAutoRetryAFNetworking.framework */; };
+		7738439C25B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7738439A25B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773843B625B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 773843B425B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773843B725B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 773843B525B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.m */; };
+		775D661F25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 775D661D25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775D662025C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.m in Sources */ = {isa = PBXBuildFile; fileRef = 775D661E25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.m */; };
+		775D662925C1170400838141 /* NetworkErrorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 775D662725C1170400838141 /* NetworkErrorUtil.h */; };
+		775D662A25C1170400838141 /* NetworkErrorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 775D662825C1170400838141 /* NetworkErrorUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		635AAFB3A4B357141B5953A0 /* Pods_WJQAutoRetryAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJQAutoRetryAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7738439825B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJQAutoRetryAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7738439A25B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJQAutoRetryAFNetworking.h; sourceTree = "<group>"; };
+		7738439B25B68DDF0028FAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773843B425B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+WJQAutoRetry.h"; sourceTree = "<group>"; };
+		773843B525B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+WJQAutoRetry.m"; sourceTree = "<group>"; };
+		775D661D25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFURLSessionManager+WJQAutoRetry.h"; sourceTree = "<group>"; };
+		775D661E25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFURLSessionManager+WJQAutoRetry.m"; sourceTree = "<group>"; };
+		775D662725C1170400838141 /* NetworkErrorUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkErrorUtil.h; sourceTree = "<group>"; };
+		775D662825C1170400838141 /* NetworkErrorUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkErrorUtil.m; sourceTree = "<group>"; };
+		AE123D0F50556A5C66D9BBEC /* Pods-WJQAutoRetryAFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQAutoRetryAFNetworking.release.xcconfig"; path = "Target Support Files/Pods-WJQAutoRetryAFNetworking/Pods-WJQAutoRetryAFNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		EDF77845BD3D9E047DBA082C /* Pods-WJQAutoRetryAFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJQAutoRetryAFNetworking.debug.xcconfig"; path = "Target Support Files/Pods-WJQAutoRetryAFNetworking/Pods-WJQAutoRetryAFNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7738439525B68DDF0028FAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338FEB2032ED2A923F00B875 /* Pods_WJQAutoRetryAFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EA6DA4F2E9760CA5ABE8795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635AAFB3A4B357141B5953A0 /* Pods_WJQAutoRetryAFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E2B4A7DE3F15A5CBAC673B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF77845BD3D9E047DBA082C /* Pods-WJQAutoRetryAFNetworking.debug.xcconfig */,
+				AE123D0F50556A5C66D9BBEC /* Pods-WJQAutoRetryAFNetworking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7738434825B687EA0028FAB0 = {
+			isa = PBXGroup;
+			children = (
+				7738439925B68DDF0028FAB0 /* WJQAutoRetryAFNetworking */,
+				7738435225B687EA0028FAB0 /* Products */,
+				74E2B4A7DE3F15A5CBAC673B /* Pods */,
+				3EA6DA4F2E9760CA5ABE8795 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7738435225B687EA0028FAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7738439825B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7738439925B68DDF0028FAB0 /* WJQAutoRetryAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7738439A25B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.h */,
+				773843B425B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.h */,
+				773843B525B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.m */,
+				7738439B25B68DDF0028FAB0 /* Info.plist */,
+				775D661D25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.h */,
+				775D661E25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.m */,
+				775D662725C1170400838141 /* NetworkErrorUtil.h */,
+				775D662825C1170400838141 /* NetworkErrorUtil.m */,
+			);
+			path = WJQAutoRetryAFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7738439325B68DDF0028FAB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D661F25C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.h in Headers */,
+				7738439C25B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.h in Headers */,
+				775D662925C1170400838141 /* NetworkErrorUtil.h in Headers */,
+				773843B625B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7738439725B68DDF0028FAB0 /* WJQAutoRetryAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7738439D25B68DDF0028FAB0 /* Build configuration list for PBXNativeTarget "WJQAutoRetryAFNetworking" */;
+			buildPhases = (
+				DE5AD9FA920F76666DAD0C82 /* [CP] Check Pods Manifest.lock */,
+				7738439325B68DDF0028FAB0 /* Headers */,
+				7738439425B68DDF0028FAB0 /* Sources */,
+				7738439525B68DDF0028FAB0 /* Frameworks */,
+				7738439625B68DDF0028FAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJQAutoRetryAFNetworking;
+			productName = WJQAutoRetryAFNetworking;
+			productReference = 7738439825B68DDF0028FAB0 /* WJQAutoRetryAFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7738434925B687EA0028FAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7738439725B68DDF0028FAB0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7738434C25B687EA0028FAB0 /* Build configuration list for PBXProject "WJQAutoRetryAFNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7738434825B687EA0028FAB0;
+			productRefGroup = 7738435225B687EA0028FAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7738439725B68DDF0028FAB0 /* WJQAutoRetryAFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7738439625B68DDF0028FAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE5AD9FA920F76666DAD0C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJQAutoRetryAFNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7738439425B68DDF0028FAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D662025C0F54C00838141 /* AFURLSessionManager+WJQAutoRetry.m in Sources */,
+				775D662A25C1170400838141 /* NetworkErrorUtil.m in Sources */,
+				773843B725B6A9BA0028FAB0 /* AFHTTPSessionManager+WJQAutoRetry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7738435825B687EA0028FAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7738435925B687EA0028FAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = mh_dylib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7738439E25B68DDF0028FAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF77845BD3D9E047DBA082C /* Pods-WJQAutoRetryAFNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NVNN92W5Y2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WJQAutoRetryAFNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjq.WJQAutoRetryAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7738439F25B68DDF0028FAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE123D0F50556A5C66D9BBEC /* Pods-WJQAutoRetryAFNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NVNN92W5Y2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WJQAutoRetryAFNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjq.WJQAutoRetryAFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7738434C25B687EA0028FAB0 /* Build configuration list for PBXProject "WJQAutoRetryAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7738435825B687EA0028FAB0 /* Debug */,
+				7738435925B687EA0028FAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7738439D25B68DDF0028FAB0 /* Build configuration list for PBXNativeTarget "WJQAutoRetryAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7738439E25B68DDF0028FAB0 /* Debug */,
+				7738439F25B68DDF0028FAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7738434925B687EA0028FAB0 /* Project object */;
+}
