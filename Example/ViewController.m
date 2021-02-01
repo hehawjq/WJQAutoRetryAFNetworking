@@ -66,7 +66,7 @@
     responseSerializer.acceptableContentTypes = set;
     
     AFHTTPSessionManager *httpManager = [AFHTTPSessionManager manager];
-//    httpManager.responseSerializer = responseSerializer;
+    httpManager.responseSerializer = responseSerializer;
     
     [httpManager GET:TestURL parameters:nil headers:nil progress:^(NSProgress * _Nonnull progress) {
         
@@ -83,7 +83,7 @@
     responseSerializer.acceptableContentTypes = set;
     
     AFHTTPSessionManager *httpManager = [AFHTTPSessionManager manager];
-//    httpManager.responseSerializer = responseSerializer;
+    httpManager.responseSerializer = responseSerializer;
     
     [httpManager POST:TestURL parameters:nil headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
         

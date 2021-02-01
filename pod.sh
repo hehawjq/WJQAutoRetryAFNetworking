@@ -69,13 +69,13 @@ while read line
         fi
     done < $TempTagListFile
 
-#    if [[ $Have_Tag == "1" ]];then
-#        echo "\ntag号 $Tag_Version 已经存在,请重新输入!"
-#    else
+    if [[ $Have_Tag == "1" ]];then
+        echo "\ntag号 $Tag_Version 已经存在,请重新输入!"
+    else
         echo "\ntag号 $Tag_Version 符合一切要求......继续后续工作"
         #调用changeSpecVersion方法
         changeSpecVersion
-#    fi
+    fi
 
 pushGit(){
     #git 暂存
@@ -85,7 +85,7 @@ pushGit(){
     git pull
 
     git add .
-    git commit -m "Support CocoaPods"
+    git commit -m ""
     git push
     git tag $Tag_Version
     git push --tags
@@ -97,8 +97,7 @@ pushGit
 pushPodRepo(){
     #pod 提交
     # 修改spec文件并push上去
-#    pod repo add $Repo_Name https://github.com/hehawjq/WJQAutoRetryAFNetworking
-    pod repo push $Repo_Name $PodSpecName --verbose --use-libraries --allow-warnings
+    pod trunk push $Repo_Name $PodSpecName --verbose --use-libraries --allow-warnings
     echo "\n\n新的版本号为 $Tag_Version "
 }
 
