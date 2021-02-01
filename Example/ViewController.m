@@ -71,7 +71,7 @@
     [httpManager GET:TestURL parameters:nil headers:nil progress:^(NSProgress * _Nonnull progress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id _Nullable response) {
-        NSLog(@"sucess");
+        NSLog(@"success");
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"failure");
     } autoRetry:3 retryInterval:5];
@@ -88,7 +88,7 @@
     [httpManager POST:TestURL parameters:nil headers:nil progress:^(NSProgress * _Nonnull uploadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSLog(@"sucess");
+        NSLog(@"success");
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"failure");
     } autoRetry:3 retryInterval:0];
