@@ -69,13 +69,13 @@ while read line
         fi
     done < $TempTagListFile
 
-    if [[ $Have_Tag == "1" ]];then
-        echo "\ntag号 $Tag_Version 已经存在,请重新输入!"
-    else
+#    if [[ $Have_Tag == "1" ]];then
+#        echo "\ntag号 $Tag_Version 已经存在,请重新输入!"
+#    else
         echo "\ntag号 $Tag_Version 符合一切要求......继续后续工作"
         #调用changeSpecVersion方法
         changeSpecVersion
-    fi
+#    fi
 
 pushGit(){
     #git 暂存
